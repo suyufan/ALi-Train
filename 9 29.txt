@@ -1,0 +1,6 @@
+- 完成布局搭建
+踩坑：
+	- uni-app的static文件没有打包到mp-weixin中，使得mp-weixin找不到static
+解决：
+	- 分包优化？按照官网文档，配置了pack.json文件，不起效。（不光小程序，App也需要分包优化的相关配置）
+	- 项目不能在含括号、空格 的地址下。切换了目录后 mp-weixin正常
